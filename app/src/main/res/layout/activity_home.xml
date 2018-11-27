@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/md_white_1000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_gettoken"
+            android:layout_marginBottom="5dp"
+            android:text="Get Token"
+            android:textAllCaps="false"
+            android:textColor="@color/md_white_1000"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="@font/roboto"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_round_corner_blue"/>
+
+        <Button
+            android:id="@+id/btn_detailcustomer"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Detail Customer"
+            android:textAllCaps="false"
+            android:textColor="@color/md_white_1000"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="@font/roboto"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_round_corner_blue"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
